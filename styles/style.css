@@ -45,30 +45,29 @@ ol {
   flex-direction: row;
   align-items: flex-end;
   width: 1140px;
-  min-height: 534px;
+  padding-top: 3px;
   gap: 30px;
 }
 
 .result {
   width: 711px;
-  height: 456px;
 }
 
 .content__details {
   width: 399px;
-  min-height: 534px;
 }
 
 .result__video-container {
   width: 100%;
   height: 386px;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .result__video-container video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .result__video-container,
@@ -81,21 +80,19 @@ ol {
   flex-direction: column;
   height: 298px;
   overflow-y: auto;
-  margin-top: 25px;
-  padding-bottom: 40px;
-  gap: 100px;
+  margin-top: 22px;
+  gap: 30px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
   width: 390px;
-  min-height: 566px;
-  gap: 30px;
+  gap: 28px;
 }
 
 .content__list-item {
-  padding: 0 3px;
+  padding-left: 2px;
 }
 
 .content__card-link {
@@ -106,7 +103,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: #1B1919;
+  background-color: #545050;
 }
 
 .content__card-link:active {
@@ -131,7 +128,7 @@ ol {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 0 0 2px;
+  padding-top: 1px;
 }
 
 .content__video-card-thumbnail {
@@ -146,7 +143,7 @@ ol {
   width: 196px;
   min-height: 103px;
   overflow: hidden;
-  padding: 1px 0 0 2px;
+  padding-top: 2px;
 }
 
 .content__video-card-title {
@@ -162,15 +159,15 @@ ol {
 .content__video-card-description {
   font-weight: 400;
   font-size: 18px;
+  line-height: 1.2;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
 .title {
   width: 259px;
-  height: 210px;
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
@@ -185,7 +182,7 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .search-form {
@@ -268,13 +265,13 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   background-color: transparent;
   font-family: 'Fira Sans Condensed', sans-serif;
   color: #fff;
   font-size: 18px;
   font-weight: 700;
-  padding: 6px 0;
+  padding: 5px 0;
   cursor: pointer;
 }
 
@@ -305,17 +302,6 @@ ol {
   width: 100%;
   height: 34px;
   cursor: pointer;
-}
-
-.preloader {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .visually-hidden {
